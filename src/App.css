@@ -1,0 +1,110 @@
+.App {
+ margin: 0;
+ padding: 0;
+}
+
+.imagesbg{
+    background-image: url('./assets/bgbg.png');
+}
+span{
+    font-family: syne;
+}
+.typon{
+font-family: Syne;
+font-size: 135px;
+font-weight: 800;
+line-height: 103px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.positions{
+    width: 181px;
+height: 181px;
+top: 1822px;
+left: 1162px;
+
+}
+
+.orangeArea{
+    width: 993px;
+height: 354.30108642578125px;
+top: 344.61749267578125px;
+left: 447px;
+opacity: 0.20000000298023224px;
+background: #F07E15;
+
+;
+
+}
+
+.typos {
+font-family: Syne;
+font-size: 135px;
+font-weight: 800;
+line-height: 103px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+.typos-md{
+    font-family: Syne;
+
+font-weight: 800;
+line-height: 69px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+.syne{
+    font-family: Syne;
+    font-weight: 600;
+}
+
+.New_Product{
+    font-family: Syne;
+font-size: 90px;
+font-weight: 600;
+line-height: 108px;
+letter-spacing: 0em;
+text-align: left;   
+}
+
+.typon-md{
+    font-family: Syne;
+font-size: 55px;
+font-weight: 800;
+line-height: 37px;
+letter-spacing: 0em;
+text-align: left;
+    
+}
+
+.get{
+
+font-family: Syne;
+/* font-size: 135px; */
+font-weight: 800;
+/* line-height: 103px; */
+letter-spacing: 0em;
+text-align: left;
+}
+
+.get-sm{
+    font-family: Syne;
+font-size: 55px;
+font-weight: 800;
+line-height: 37px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+.lhmd{
+    line-height: 135px;
+}
+.lhsm{
+    line-height: 37px;
+}
