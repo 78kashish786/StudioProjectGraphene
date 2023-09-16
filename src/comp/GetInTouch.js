@@ -17,11 +17,10 @@ const GetInTouch = () => {
         </div>
 
         <div className='relative  mx-auto flex md:justify-between justify-center  items-center md:items-start  '>
-            <span className='relative md:text-[135px] lhmd  get text-[45px]   font-bold  text-white '>GET<br/>
+            <span className='relative md:text-[135px] leading-[37px] md:leading-[147px] get text-[45px]   font-bold  text-white '>GET<br/>
             IN TOUCH</span>
             <button className='md:position  md:right-[100px] right-10 md:bottom-14 absolute  hover:bg-[#f07e15] hover:text-white h-[100px] w-[100px] md:h-[181px] md:w-[181px] border border-2 rounded-full md:text-3xl text-[#F07E15] border-[#F07E15]'>SEND</button>
         </div>
-
     </section>
   )
 }

@@ -10,8 +10,11 @@ const Navbar = () => {
   const [open,setOpen] = useState(false);
   const[opendrop,setOpendrop]= useState(true);
 
+  const handleOpen= ()=>{
+    setOpen(!open);
+  }
   return (
-    <section className='text-white bg-[#121211] md:px-16 px-4 py-4 '>
+    <section className={open?"text-white bg-black md:px-16 px-4 py-4 ":"text-white bg-[#121211] md:px-16 px-4 py-4 "}>
         <div className='flex flex-col gap-1'>
             <div className='flex justify-between items-baseline'>
                 <h1 className='text-4xl font-[300]'>ShopKart</h1>
@@ -20,7 +23,7 @@ const Navbar = () => {
                     <li>Bag (0)</li>
                 </ul>
                 
-                <div onClick={()=>setOpen(!open)} className='md:hidden'>
+                <div onClick={handleOpen} className='md:hidden  '>
                   {
                     open ? (
                       <img className='p-1 border-2 border-white' src ={close} alt='close '/>
@@ -55,17 +58,17 @@ const Navbar = () => {
                     </ul>
                   </div>
             {/* Menu */}
-            <div className='md:px-16  hidden'>
-            <div className={open ? " " :"hidden"}>
-              <ul className='uppercase font-bold text-2xl flex flex-col h-screen p-16 text-center gap-16'>
-                <li>Home</li> 
-                <li>About</li>  
-                <li >Our Products</li>
-                <li>Contact us</li>
+            
+            <div className={open? "bg-black  " :"hidden"}>
+              <ul className=' b bg-black uppercase font-bold text-white text-2xl flex flex-col  p-16 text-center gap-16'>
+                <li className='bg-black  text-white px-8 py-4 '>Home</li> 
+                <li className='bg-black  text-white px-8 py-4'>About</li>  
+                <li className='bg-black  text-white px-8 py-4' >Our Products</li>
+                <li className='bg-black  text-white px-8 py-4'>Contact us</li>
                 </ul>
-            </div>
+            
         </div>
-        <Banner/>
+        {open ? '' :<Banner/>}
     </section>
   )
 }
