@@ -9,9 +9,9 @@ const GetInTouch = () => {
             <h2 className='md:text-xl text-md'>Get news about articles and updates <br/> in your inbox</h2>
         </div>
         <div className='flex flex-col gap-4 md:mx-5 mt-10 md:mt-0'>
-            <input placeholder='NAME' className=' md:ml-10 px-4 py-1 md:w-[558px] w-full bg-transparent text-md font-[400] mb-3 border-b-2'/>
-            <input placeholder='EMAIL' className=' md:ml-10 px-4 py-1 md:w-[558px] w-full bg-transparent text-md font-[400] mb-3 border-b-2'/>
-            <input placeholder='MESSAGE' className=' md:ml-10 px-4 py-1 md:w-[558px] w-full bg-transparent text-md font-[400] mb-3 border-b-2'/>
+            <input placeholder='NAME' className=' md:ml-10 px-4 py-1 md:w-[558px]  bg-transparent text-md font-[400] mb-3 border-b-2'/>
+            <input placeholder='EMAIL' className=' md:ml-10 px-4 py-1 md:w-[558px]  bg-transparent text-md font-[400] mb-3 border-b-2'/>
+            <input placeholder='MESSAGE' className=' md:ml-10 px-4 py-1 md:w-[558px] bg-transparent text-md font-[400] mb-3 border-b-2'/>
         </div>
 
         </div>
@@ -26,3 +26,4 @@ const GetInTouch = () => {
 }
 
 export default GetInTouch
+
