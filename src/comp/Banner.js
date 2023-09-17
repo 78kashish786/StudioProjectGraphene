@@ -1,6 +1,6 @@
 import React from 'react'
 import images from '../assets/2022.svg'
-import bannerimg from "../assets/bannerimg.svg"
+import bannerimg from "../assets/bannerimg.png"
 import star from '../assets/Star.svg'
 import line from '../assets/line.svg'
 import linestar from '../assets/Star 4.png'
@@ -13,7 +13,7 @@ const Banner = (props) => {
           <h1 className=' mx-20  typos-md text-[45px] md:text-[90px]  z-10'>Look</h1>
         </div>
           <img  className=' absolute top-[129px] -right-[10px] md:right-20  w-[367px] h-[371px]   'src ={star} alt='/'/>
-          <img  className=' absolute top-[133px] right-[10] md:w-[432px] w-[321px] h-[599px] md:h-[655px] md:right-20  'src ={bannerimg} alt='/'/>
+          <img  className=' absolute top-[133px] right-[10] md:mr-20 md:w-[332px] w-[321px] h-[599px] md:h-[655px] md:right-20  'src ={bannerimg} alt='/'/>
           <div className= {props.open ? 'hidden':' absolute  top-[345px] right-0 text-left opacity-80 w-[1150px] h-[345px] bg-[#F07E15] flex flex-col text-[14px] font-[400] text-black p-5 justify-end  items-end '}>
             <h1>OREGON JACKET</h1>
             <h2>$124</h2>
