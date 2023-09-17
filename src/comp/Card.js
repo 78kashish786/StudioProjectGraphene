@@ -4,7 +4,7 @@ import cardIMG from "../assets/cardimg.png";
 const Card = () => {
   return (
     <div>
-        <div className=' md:m-5  m-3  md:w-[310px] w-full  '>
+        <div className=' md:m-5  m-3  md:w-[310px]  '>
             <div className='relative md:w-[310px] h-[322px] '>
               <img src ={cardIMG} alt='/'/>
         
